@@ -1,0 +1,50 @@
+.Card{
+    padding: 30px;
+    margin: 20px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 400px;
+    
+    gap: 20px;
+    background-color: rgba(189, 154, 196, 0.384);
+    color: rgb(58, 9, 42);
+    img{
+       
+        border-radius: 30px;
+        position: relative;
+        object-fit:fill;
+        width: 250px;
+        height: 300px;
+        overflow: hidden;
+    }
+    video{
+        display: none;
+    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 50px;
+
+}
+
+.CardV{
+    padding: 30px;
+    margin: 20px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 600px;
+    gap: 10px;
+    background-color: rgba(189, 154, 196, 0.384);
+    img{
+        border-radius: 10px;
+        width: 270px;
+        height: 350px; 
+    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 50px;
+
+}

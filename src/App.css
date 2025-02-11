@@ -1,0 +1,47 @@
+.App{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 203, 245);
+
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+
+  Button{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+      padding: 30px;
+      font-size: 2em;
+      border-radius: 50%;
+      color: rgb(73, 9, 44);
+      background-color: #ffc0cb;
+      border: 5px solid rgb(201, 97, 128);
+      cursor: pointer;
+  
+      &:hover{
+          background-color: #daa5ad;
+          color: white;
+          border: 5px solid rgb(0, 0, 0);
+      }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App{
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+  }
+}

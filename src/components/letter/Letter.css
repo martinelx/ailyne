@@ -1,0 +1,15 @@
+.Letter{
+    height: 700px;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px;
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 2.1rem;
+    }
+    background-color: white;
+}
