@@ -2,7 +2,7 @@ export const FavPics = [
     {
         id: 1,
         title: "Nem preciso falar muito",
-        src: './src/assets/pics/dummy.png',
+        src: './pics/dummy.png',
         class: 'Card'
     },
     {
