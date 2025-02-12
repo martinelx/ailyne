@@ -44,4 +44,23 @@
 
     width: 100vw;
   }
+
+  Button{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+      padding: 15px;
+      font-size: 1.5em;
+      border-radius: 50%;
+      color: rgb(73, 9, 44);
+      background-color: #ffc0cb;
+      border: 5px solid rgb(201, 97, 128);
+      cursor: pointer;
+  
+      &:hover{
+          background-color: #daa5ad;
+          color: white;
+          border: 5px solid rgb(0, 0, 0);
+      }
+  }
 }

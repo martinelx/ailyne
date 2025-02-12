@@ -1,8 +1,8 @@
 import './App.css'
 import { useState } from 'react';
 import { Header } from './components/Header';
-import { Container } from './components/container/container';
 import { Letter } from './components/letter/Letter';
+import { HandMade } from './components/handmade/HandMade';
 
 function App() {
   const [isClicked, setClickedState] = useState(false);
@@ -12,7 +12,7 @@ function App() {
       {isClicked ? 
       <div className='main'>
         <Letter />
-      </div> : <Container />}
+      </div> : <HandMade />}
       <button
         className="btn"
         onClick={() => {
