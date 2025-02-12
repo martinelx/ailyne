@@ -5,7 +5,7 @@ import { Letter } from './components/letter/Letter';
 import { HandMade } from './components/handmade/HandMade';
 
 function App() {
-  const [isClicked, setClickedState] = useState(false);
+  const [isClicked, setClickedState] = useState(true);
   return (
     <div className='App'>  
       <Header />
@@ -19,7 +19,7 @@ function App() {
             setClickedState((currentState) => !currentState)
         }}
       >
-        Click Me
+        Click
       </button>
     </div>
   )
