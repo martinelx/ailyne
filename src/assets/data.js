@@ -8,7 +8,7 @@ export const FavPics = [
     {
         id: 2,
         title: "Uma maça por dia, traz saude e alegría",
-        src:'./src/assets/pics/mango.png',
+        src:'./assets/pics/mango.png',
         description: "",
         class: 'Card'
     },
