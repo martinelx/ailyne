@@ -11,9 +11,12 @@ export function Letter(){
                 <br />
                 <br />
                 Obrigado por seres essa miuda incrivel que eu tenho o orgulho de chamar de amor, orgulho de dizer que é minha namorada.
-                <br />
-
-            </p>
+            </p> <p>
+                    Que contniues sendo essa miuda que tem me mostrado que o amor ainda existe, e que celebremos muitos mais dias dos namorados juntos.
+                    <br />
+                    Te amooooooooooo
+                </p>
+                <p>Com amor, O teu cabeçudo!</p>
         </div>
     )
 }
